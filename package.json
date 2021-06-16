@@ -1,6 +1,6 @@
 {
   "name": "string-generator-js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Pure javascript library to help you create random strings.",
   "main": "index.js",
   "scripts": {

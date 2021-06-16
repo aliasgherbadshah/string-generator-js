@@ -22,9 +22,10 @@ module.exports = (options) => {
     } else if (options.type === 'alphabets') {
         allUnits = characters;
     } else {
-        allUnits = [...characters, ...numbers];
+        allUnits = [...characters.split(''), ...numbers.split('')];
     };
     allUnits = randomArrayShuffle(allUnits);
+    allUnits = allUnits.join('');
     var charactersLength = allUnits.length;
     for (var i = 0; i < options.length; i++) {
         result += allUnits.charAt(Math.floor(Math.random() * charactersLength));
