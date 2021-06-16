@@ -1,5 +1,10 @@
 Library to help you create random strings.
 
+**Latest update**
+
+- Make strings  more randomize by adding numbers to it
+- option to configure type of string as numbers, alphabets or both
+
 
 ## **Installation and Usage**
 
@@ -29,9 +34,10 @@ console.log(code)
 ### **Options** 
  Options accept following values
 
-| Parameter               | Type | Default |
-| ------------------ | ------- | ------- |
-| length | Number | 10 |
+| Parameter               | Type | Default | Accept |
+| ------------------ | ------- | ------- | ------- |
+| length | Number | 10 | Any number |
+| type | String | both | numbers, alphabets, both |
 
 
 
