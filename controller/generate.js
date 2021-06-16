@@ -18,9 +18,9 @@ module.exports = (options) => {
     var numbers = '01234567890123456789012345678901234567890123456789';
     var allUnits = [];
     if (options.type === 'numbers') {
-        allUnits = numbers;
+        allUnits = numbers.split('');
     } else if (options.type === 'alphabets') {
-        allUnits = characters;
+        allUnits = characters.split('');
     } else {
         allUnits = [...characters.split(''), ...numbers.split('')];
     };
